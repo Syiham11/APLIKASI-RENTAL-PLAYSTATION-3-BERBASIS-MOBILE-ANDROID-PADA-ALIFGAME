@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h3>Test JSON LOGIN</h3>
+<form method="post" action="mobile_login.php">
+    <input type="hidden" name="nz" value="mobile">
+    <input type="text" placeholder="Email" name="email"><br>
+    <input type="password" placeholder="Password" name="password"><br>
+    <input type="submit" value="go!">
+</form>
+<h3>Test JSON Data PS</h3>
+<form method="post" action="mobile_daftar_ps.php">
+    <input type="hidden" name="nz" value="mobile">
+    <input type="submit" value="go!">
+</form>
+<h3>Test JSON Pemesanan</h3>
+<form method="post" action="mobile_post_pemesanan.php">
+    <input type="hidden" name="nz" value="mobile">
+    <input type="number" placeholder="Pengguna" name="id_pengguna"><br>
+    <input type="number" placeholder="PS" name="id_ps"><br>
+    <input type="number" placeholder="Kategori" name="id_kategori"><br>
+    <input type="submit" value="go!">
+</form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ALIF GAME"
+        android:gravity="center_horizontal"
+        android:textColor="@color/m_nz_material_grey_800"
+        android:padding="3dp"
+        android:background="@color/m_nz_material_grey_200"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/s_profil_alif"
+        android:textColor="@color/m_nz_material_grey_700"/>
+
+</LinearLayout>

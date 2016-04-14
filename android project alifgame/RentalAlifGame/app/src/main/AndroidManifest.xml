@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nua.rentalalifgame" >
+
+    <permission
+        android:name="com.nua.rentalalifgame.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature"/>
+
+    <uses-permission android:name="com.nua.rentalalifgame.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.LOCATION_HARDWARE"/>
+    <uses-permission android:name="android.permission.MAPS_RECEIVE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppThemeNoActionBar"
+        android:hardwareAccelerated="false">
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="userPortrait"
+            android:hardwareAccelerated="false">
+
+        </activity>
+        <activity
+            android:hardwareAccelerated="false"
+            android:name=".LoginActivity"
+            android:label="Login"
+            android:screenOrientation="userPortrait"
+            android:windowSoftInputMode="adjustResize">
+        </activity>
+
+        <activity
+            android:hardwareAccelerated="false"
+            android:name=".PendaftaranActivity"
+            android:label="Pendaftaran"
+            android:screenOrientation="userPortrait">
+        </activity>
+
+        <activity
+            android:hardwareAccelerated="false"
+            android:name=".DaftarPsActivity"
+            android:label="@string/title_activity_daftar_ps" >
+        </activity>
+        <activity
+            android:hardwareAccelerated="false"
+            android:name=".DetailPsActivity"
+            android:label="@string/title_activity_detail_ps" >
+        </activity>
+
+        <activity
+            android:name=".GantiAlamatActivity"
+            android:label="@string/title_activity_ganti_ps" >
+        </activity>
+
+        <activity
+            android:name=".DaftarRentalActivity"
+            android:label="@string/title_activity_renatl_ps" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyD-o7ZiNSdHo9I_gRoinhuZps9ErWDiPUg" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

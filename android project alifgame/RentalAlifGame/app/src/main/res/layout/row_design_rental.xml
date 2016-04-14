@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="@color/background_material_light">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal : "
+        android:textColor="@color/m_nz_material_grey_800"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="07 September 2015"
+        android:textColor="@color/m_nz_material_grey_800"
+        android:id="@+id/rental_tanggal"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Playstation : "
+        android:textColor="@color/m_nz_material_grey_800"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="PS 3"
+        android:textColor="@color/m_nz_material_grey_800"
+        android:id="@+id/rental_jenis_ps"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kategori Harga : "
+        android:textColor="@color/m_nz_material_grey_800"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="24 Jam"
+        android:textColor="@color/m_nz_material_grey_800"
+        android:id="@+id/rental_kategori_harga"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga Rental : "
+        android:textColor="@color/m_nz_material_grey_800"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp. 70000"
+        android:textColor="@color/m_nz_material_merah_600"
+        android:id="@+id/rental_harga"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status Pesanan : "
+        android:textColor="@color/m_nz_material_grey_800"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Telah Diterima"
+        android:textColor="@color/m_nz_material_grey_800"
+        android:id="@+id/rental_status"/>
+
+</LinearLayout>

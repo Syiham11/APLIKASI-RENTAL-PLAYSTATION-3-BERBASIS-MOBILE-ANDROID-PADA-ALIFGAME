@@ -1,0 +1,22 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nua.rentalalifgame.DaftarPsActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ListView
+        android:id="@+id/daftar_ps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/m_nz_material_grey_100"
+        android:dividerHeight="1dp">
+
+    </ListView>
+
+</LinearLayout>

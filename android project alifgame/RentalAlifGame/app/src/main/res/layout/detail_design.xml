@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="@color/background_material_light">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail Playstation"
+        android:textColor="@color/m_nz_material_grey_800"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="5dp"
+        android:background="@color/m_nz_material_grey_200"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis Playstation :"
+        android:textColor="@color/m_nz_material_grey_800"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="PS 3"
+        android:textColor="@color/m_nz_material_grey_800"
+        android:id="@+id/detail_jenis_ps"
+        />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelengkapan Playstation : "
+        android:textStyle="bold"
+        android:textColor="@color/m_nz_material_grey_800"
+        />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Adapun sepereti itu adalah hal hal yang tidak terlalu"
+        android:textColor="@color/m_nz_material_grey_800"
+        android:id="@+id/detail_kelengkapan_ps"
+        />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Keterangan : "
+        android:textStyle="bold"
+        android:textColor="@color/m_nz_material_grey_800"
+        />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Adapun sepereti itu adalah hal hal yang tidak terlalu"
+        android:textColor="@color/m_nz_material_grey_800"
+        android:id="@+id/detail_keterangan_ps"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Rental Playstation"
+        android:padding="3dp"
+        android:gravity="center"
+        android:background="@color/m_nz_material_biru_100"
+        android:textColor="@color/m_nz_putih"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Kategori Harga"
+        android:padding="3dp"
+        android:gravity="center"
+        android:background="@color/m_nz_material_biru_100"
+        android:textColor="@color/m_nz_putih"
+        />
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Rental Alif Game</string>
+
+    <string name="s_id_user">id_pengguna</string>
+    <string name="s_id_user_default">id_pengguna</string>
+
+    <string name="s_email_user">email_pengguna</string>
+    <string name="s_email_default">email_pengguna</string>
+    <string name="s_judul_spinner_jkl">Pilih Jenis Kelamin</string>
+    <string-array name="spinner_jkl">
+        <item>Laki - Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string name="s_profil_alif">\tAlif game mrupakan usaha yang bergerak dibidang jasa penyewaan playstation harian. Alif game salah satu usaha rental playstation yang anda di makassar dan telah memilki beberapa cabang</string>
+
+    <string-array name="menu">
+        <item>HEADER</item>
+        <item>Home</item>
+        <item>Profil Alif</item>
+        <item>Ganti Password</item>
+        <item>Log out</item>
+    </string-array>
+    <string name="title_activity_daftar_ps">Daftar Playstation</string>
+    <string name="title_activity_detail_ps">Detail Playstation</string>
+    <string name="title_activity_ganti_ps">Ganti Alamat</string>
+    <string name="title_activity_renatl_ps">Pesanan Rental Anda</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
